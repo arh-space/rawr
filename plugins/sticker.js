@@ -46,8 +46,7 @@ Kalau masih ga paham bisa chat owner, kalau ga ngerti2 juga silahkan baca sampai
 
 ©ARHBOT ${m.isGroup ? ', balas gambarnya!' : ''}`
   }
-  await conn.sendButton(m.chat, ` 
-Okee udah ${conn.getName(m.sender)} (ㆆ_ㆆ)👌`,  '© 𝗔𝗥𝗛BOT‏‏‏', 'MENU', '.menu') 
+  await m.reply('Okee udah (ㆆ_ㆆ)👌')
 }
 handler.help = ['stiker ', 'stiker <url>']
 handler.tags = ['sticker']
