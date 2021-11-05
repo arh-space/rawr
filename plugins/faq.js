@@ -38,7 +38,7 @@ Q: Mengapa wajib merubah IP Address setelah sering melakukan SMS di IP yg sama?
 A: Karena WhatsApp memiliki fitur penyaringan yg sangat baik, jika Anda membeli nomor menggunakan IP Address yg sama secara berulangkali, WhatsApp akan mendeteksi adanya aktivitas mencurigakan, jadi SMS tidak akan terkirim.
 
 
-Latest Update: 20 October 2021`, { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": 'BOT WhatsApp Terverifikasi\nOfficial Partner BOT : Rawr', "jpegThumbnail": fs.readFileSync('./src/arh.jpg')} } }, m)
+Latest Update: 20 October 2021`, { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": 'BOT WhatsApp Terverifikasi', "jpegThumbnail": fs.readFileSync('./src/arh.jpg')} } }, m)
 }
 
 
