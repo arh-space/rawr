@@ -24,7 +24,7 @@ await  conn.sendFile(m.chat, ava, 'ava.jpg', `◪ 「 𝗥𝗔𝗪𝗥 𝗢𝗧�
 ┗\n\n⚠️ 𝗣𝗘𝗥𝗛𝗔𝗧𝗜𝗔𝗡 ⚠️
 • Harga untuk tiap aplikasi dan negara berbeda.
 • Konfirmasi terlebih dahulu sebelum order kepada admin agar tidak ada pihak yang dirugikan.\n`, { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": 'BOT WhatsApp Terverifikasi', "jpegThumbnail": fs.readFileSync('./src/arh.jpg')} } }, m)
-await conn.send2Button(m.chat, ``,   '\n© 2021 𝗥𝗔𝗪𝗥 BOT | Developed by ARH 🌟', 'ORDER', '.owner', 'FAQ', '.faq') 
+await conn.send2Button(m.chat, `‎`,   '\n© 2021 🌟 𝗥𝗔𝗪𝗥 BOT | Developed by ARH ', 'ORDER', '.owner', 'FAQ', '.faq') 
 }
 
 
